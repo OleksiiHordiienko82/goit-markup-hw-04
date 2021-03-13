@@ -10,6 +10,7 @@
   --third-background-color: #f5f4fa;
   --section-pt: 94px;
   --section-pb: 94px;
+  --common-grey: #afb1b8;
 }
 
 body {
@@ -185,6 +186,7 @@ img {
 .mail-img {
   width: 16px;
   height: 12px;
+  fill: currentColor;
 }
 
 .phone-img {
@@ -415,6 +417,39 @@ img {
   padding-bottom: 30px;
   text-align: center;
   background-color: white;
+}
+
+.team-list-content-wrapper > ul {
+  display: flex;
+  justify-content: center;
+}
+
+.team-icon-container-img {
+  width: 20px;
+  height: 20px;
+}
+
+.team-icon-container-img use {
+  fill: var(--common-grey);
+}
+
+.team-icon-container:hover > svg > use {
+  fill: var(--primary-background-color);
+}
+
+.team-icon-container {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-icon-container:hover,
+.team-icon-container:focus {
+  background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 /* =============END OUR TEAM ============= */
