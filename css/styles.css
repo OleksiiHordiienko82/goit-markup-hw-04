@@ -172,6 +172,8 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--basic-content-color);
+  display: flex;
+  align-items: center;
 }
 
 .link-address:hover,
@@ -187,11 +189,14 @@ img {
   width: 16px;
   height: 12px;
   fill: currentColor;
+  margin-right: 10px;
 }
 
 .phone-img {
   width: 12px;
   height: 16px;
+  fill: currentColor;
+  margin-right: 10px;
 }
 
 /* ============= END HEADER ============= */
