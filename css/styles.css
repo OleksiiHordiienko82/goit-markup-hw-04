@@ -484,6 +484,36 @@ img {
   margin-bottom: 50px;
 }
 
+.list-customers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients-item {
+  width: 170px;
+  height: 90px;
+  border: 1px solid var(--common-grey);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list-customers li:not(:last-child) {
+  margin-right: 30px;
+}
+.clients-item:hover .clients-link,
+.clients-item:focus .clients-link {
+  fill: var(--accent-color);
+}
+.clients-item:hover,
+.clients-item:focus {
+  border-color: var(--accent-color);
+}
+.clients-link {
+  fill: var(--common-grey);
+}
+
 /* =============END REGULAR CUSTOMERS ============= */
 /* =============FOOTER============= */
 
