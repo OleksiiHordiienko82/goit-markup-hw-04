@@ -447,7 +447,7 @@ img {
   fill: var(--common-grey);
 }
 
-.team-icon-container:hover > svg > use {
+.team-icon-container:hover .team-icon-container-img use {
   fill: var(--primary-background-color);
 }
 
@@ -487,7 +487,7 @@ img {
 
 .list-customers {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -500,9 +500,7 @@ img {
   justify-content: center;
   align-items: center;
 }
-.list-customers li:not(:last-child) {
-  margin-right: 30px;
-}
+
 .clients-item:hover .clients-link,
 .clients-item:focus .clients-link {
   fill: var(--accent-color);
@@ -567,13 +565,19 @@ img {
   background: rgba(255, 255, 255, 0.1);
 }
 
+.social-icon-container:not(:last-child) {
+
+  margin-right: 10px;
+
+}
+
 /*.social-icon-container-img {
   width: 20px;
   height: 20px;
 }*/
 
 .social-icon-container-img use {
-  fill: var(--common-grey);
+  fill: var(--primary-background-color);
 }
 
 .social-icon-container:hover > svg > use {
@@ -594,13 +598,13 @@ img {
 
 .footer p {
    font-family: var(--main-font);
-   font-style: normal;
    font-weight: bold;
    font-size: 14px;
    line-height: 16px;
    letter-spacing: 0.03em;
    color: #FFFFFF;
    margin-bottom: 20px;
+   text-transform: uppercase;
   
 
 
