@@ -226,8 +226,8 @@ img {
   color: #ffffff;
 }
 
-.hero-button:hover,
-.hero-button:focus {
+.hero-btn:hover,
+.hero-btn:focus {
   background-color: #188ce8;
 }
 
