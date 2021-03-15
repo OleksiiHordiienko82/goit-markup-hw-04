@@ -449,13 +449,13 @@ img, svg {
 .team-icon-container:hover .team-icon-container-img use {
   fill: var(--primary-background-color);
 }
-.team-icon-container:not(:last-child) {
- margin-right:8px;
+.team-icon-container:not(:last-child)  {
+ margin-right:10px;
  
 }
 .team-icon-container {
-  width: 45px;
-  height: 45px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
